@@ -8,10 +8,7 @@
 
 **Currently Learning:**
 
-*  Deep Learning Architectures
-*  AI for Robotics and Automation
-*  Advanced Natural Language Processing 
-*  Building AI-powered Web Applications
+//
   
 **Connect with me:**
 <p align="left">
