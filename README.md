@@ -1,22 +1,19 @@
 <h1 align="center">Hi 👋</h1>
 <h1 align="center">I am <b>Mohamed Hossam Abdelalim</b></h1>
-<h3 align="center">A Committed and an Enthusiastic student on a Journey in the Realm of Artificial Intelligence, Data Science, and Machine Learning</h3>
+<h3 align="center">Driven by a thirst for knowledge and a passion for innovation, I'm diving headfirst into the fascinating world of Artificial Intelligence (AI) and Machine Learning (ML).</h3>
 
-
-
-Driven by a thirst for knowledge and a passion for innovation, I'm diving headfirst into the fascinating world of Artificial Intelligence (AI) and Machine Learning (ML). My journey is fueled by a desire to:
-
+**My journey is fueled by a desire to:**
 * **Unlock the potential of AI for good:** I'm eager to explore how AI can tackle real-world challenges and contribute to a better future.
 * **Push the boundaries of ML:** I'm constantly learning and experimenting with new ML techniques, eager to contribute to the advancement of the field.
 * **Build cool and creative things:** Combining my technical skills with a sprinkle of imagination, I enjoy creating unique projects that showcase the power of AI.
 
 **Currently Learning:**
 
-*  Deep Learning Architectures (e.g., GANs, Transformers)
+*  Deep Learning Architectures
 *  AI for Robotics and Automation
-*  Advanced Natural Language Processing (NLP)
+*  Advanced Natural Language Processing 
 *  Building AI-powered Web Applications
-*  
+  
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="" height="30" width="40" /></a>
