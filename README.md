@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋</h1>
-<h1 align="center">I am <b>Mohamed Hossam Abdelalim</b></h1>
+<h1 align="center">👋 I am <b>Mohamed Hossam Abdelalim</b></h1>
 <h3 align="center">Driven by a thirst for knowledge and a passion for innovation, I'm diving headfirst into the fascinating world of Artificial Intelligence (AI) and Machine Learning (ML).</h3>
 
 **My journey is fueled by a desire to:**
