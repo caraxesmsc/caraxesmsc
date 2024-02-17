@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋</h1>
-<h1 align="center">I am Mohamed Hossam Abdelalim</h1>
+<h1 align="center">I am <b>Mohamed Hossam Abdelalim</b></h1>
 <h3 align="center">A Committed and an Enthusiastic student on a Journey in the Realm of Artificial Intelligence, Data Science, and Machine Learning</h3>
 
 
