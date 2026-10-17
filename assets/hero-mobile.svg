@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="580" viewBox="0 0 640 580" role="img" aria-labelledby="title desc">
+<title id="title">Mohamed Hossam — software, with a spark.</title>
+<desc id="desc">Mobile version of the crimson dragon developer banner. Web, AI, automation. Animated dragon and terminal cursor; reduced-motion support.</desc>
+
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151820"/><stop offset="1" stop-color="#24151b"/></linearGradient>
+<linearGradient id="dragonFill" x2=".6" y2="1"><stop stop-color="#73302e"/><stop offset="1" stop-color="#301c27"/></linearGradient>
+<pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+</defs>
+<style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}.dragon{animation:breathe 7s ease-in-out infinite}.cursor{animation:blink 1.5s steps(2,end) infinite}@keyframes breathe{50%{opacity:.6}}@keyframes blink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.dragon,.cursor{animation:none}}</style>
+<rect x=".5" y=".5" width="639" height="579" rx="16" fill="url(#bg)" stroke="#44343a"/>
+<rect x="1" y="1" width="638" height="578" rx="16" fill="url(#g)"/>
+<path d="M28 44V28H44 M596 28H612V44 M28 536V552H44 M596 552H612V536" fill="none" stroke="#8c4b46"/>
+<circle cx="49" cy="63" r="4" fill="#f08c68"/>
+<text x="65" y="69" class="m" font-size="20" letter-spacing="2" fill="#e0b7a4">CARAXES / WORKSPACE</text>
+<g class="dragon" transform="translate(503 162) scale(.48)">
+<path d="M-56 83 C-128 58-129-24-83-60 C-58-82-31-65-31-45 C-32-23-61-24-70-8 C-88 21-72 47-48 47 C-7 49 15 19 8-11 L-7-35 L-29-45 L-4-53 L-31-83 L11-69 L8-110 L39-77 L73-90 L62-65 L104-46 L79-20 L43-15 L67 4 L48 17 L23 0 C42 56 6 102-56 101 Z" fill="url(#dragonFill)" stroke="#e26450" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M-65 43 C-58 5-15 3-7-35 M-79-51 L-61-82 L-52-63 M-102-22 L-123-43 L-113-8 M-112 12 L-134 14 L-112 28 M-98 46 L-117 62 L-89 61 M-72 72 L-73 96 M-37 69 L-27 91 M-5 49 L10 69 M14 22 L31 35" fill="none" stroke="#e26450" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+<path d="M-33-52 L-84-123 L-145-100 L-123-31 L-106-58 L-85-51 L-85-78 L-61-69 L-63-95 Z" fill="#381b23" stroke="#a64740" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M-84-123 L-85-78 M-84-123 L-106-58 M-84-123 L-123-31" fill="none" stroke="#a64740" stroke-width="1.4"/>
+<path d="M43-48 L61-45 L48-36 Z" fill="#ffd4a2"/>
+<path d="M78-21 L90-34 L83-33" fill="none" stroke="#ffd4a2" stroke-width="2.5"/>
+<path d="M37-70 L49-69 M-3-70 L11-58" fill="none" stroke="#f29973" stroke-width="2"/>
+</g>
+<text x="44" y="231" class="s" font-size="76" font-weight="750" letter-spacing="-2.5" fill="#f4eee8">Mohamed</text>
+<text x="44" y="314" class="s" font-size="76" font-weight="750" letter-spacing="-2.5" fill="#f4eee8">Hossam<tspan fill="#f08c68">.</tspan></text>
+<text x="48" y="373" class="s" font-size="30" fill="#d7b5a6">Software, with a spark.</text>
+<path d="M48 411H592" stroke="#a95145" stroke-opacity=".7"/>
+<text x="48" y="449" class="m" font-size="20" letter-spacing="1" fill="#b8b3ba">WEB / AI / AUTOMATION</text>
+<text x="48" y="522" class="m" font-size="22" fill="#b2a8b2">~ / caraxesmsc <tspan fill="#e59a7b">❯</tspan></text>
+<rect class="cursor" x="283" y="503" width="12" height="24" fill="#ed9575"/>
+
+</svg>

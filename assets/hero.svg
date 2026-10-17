@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Mohamed Hossam — software, with a spark.</title>
+<desc id="desc">A charcoal and crimson developer banner with an original geometric dragon, a slowly rotating orbit, floating embers, and a blinking terminal cursor. Web applications, AI, automation. Respects reduced-motion preferences.</desc>
+
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#151820"/><stop offset=".55" stop-color="#0d1117"/><stop offset="1" stop-color="#24151b"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#ae3c36" stop-opacity=".23"/><stop offset="1" stop-color="#ae3c36" stop-opacity="0"/></radialGradient>
+  <linearGradient id="dragonFill" x2=".6" y2="1"><stop stop-color="#73302e"/><stop offset="1" stop-color="#301c27"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+  <linearGradient id="line"><stop stop-color="#f39269"/><stop offset=".5" stop-color="#df5b51"/><stop offset="1" stop-color="#df5b51" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+  .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+  .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+  .orbit{transform-origin:939px 210px;animation:orbit 48s linear infinite}
+  .breath{transform-origin:939px 210px;animation:breath 7s ease-in-out infinite}
+  .ember{animation:ember 6s ease-in-out infinite}.e1{animation-delay:-1.5s}.e2{animation-delay:-3s}.e3{animation-delay:-4.5s}
+  .cursor{animation:blink 1.5s steps(2,end) infinite}
+  @keyframes orbit{to{transform:rotate(360deg)}}
+  @keyframes breath{50%{opacity:.77;transform:translateY(-3px)}}
+  @keyframes ember{50%{opacity:.08;transform:translateY(-9px)}}
+  @keyframes blink{50%{opacity:0}}
+  @media(prefers-reduced-motion:reduce){.orbit,.breath,.ember,.cursor{animation:none}}
+</style>
+<rect x=".5" y=".5" width="1199" height="439" rx="16" fill="url(#bg)" stroke="#34303a"/>
+<rect x="1" y="1" width="1198" height="438" rx="16" fill="url(#grid)"/>
+<ellipse cx="940" cy="211" rx="263" ry="223" fill="url(#halo)"/>
+<circle class="ember e0" cx="28" cy="35" r="1.6" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="165" cy="108" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="302" cy="181" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="439" cy="254" r="1.6" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="576" cy="327" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="713" cy="35" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="850" cy="108" r="1.6" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="987" cy="181" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="1124" cy="254" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="117" cy="327" r="1.6" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="254" cy="35" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="391" cy="108" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="528" cy="181" r="1.6" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="665" cy="254" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="802" cy="327" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="939" cy="35" r="1.6" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="1076" cy="108" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="69" cy="181" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="206" cy="254" r="1.6" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="343" cy="327" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="480" cy="35" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="617" cy="108" r="1.6" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="754" cy="181" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="891" cy="254" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="1028" cy="327" r="1.6" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="1165" cy="35" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="158" cy="108" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="295" cy="181" r="1.6" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="432" cy="254" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="569" cy="327" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="706" cy="35" r="1.6" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="843" cy="108" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="980" cy="181" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="1117" cy="254" r="1.6" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="110" cy="327" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="247" cy="35" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="384" cy="108" r="1.6" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="521" cy="181" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="658" cy="254" r="1" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="795" cy="327" r="1.6" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="932" cy="35" r="1" fill="#ef6a56" opacity="0.12"/><circle class="ember e1" cx="1069" cy="108" r="1" fill="#ef6a56" opacity="0.22"/><circle class="ember e2" cx="62" cy="181" r="1.6" fill="#ef6a56" opacity="0.32"/><circle class="ember e3" cx="199" cy="254" r="1" fill="#ef6a56" opacity="0.42000000000000004"/><circle class="ember e0" cx="336" cy="327" r="1" fill="#ef6a56" opacity="0.12"/>
+<path d="M36 46V29H53 M1147 29H1164V46 M36 394V411H53 M1147 411H1164V394" fill="none" stroke="#8c4b46"/>
+<circle cx="68" cy="58" r="4" fill="#f08c68"/>
+<text x="83" y="63" class="mono" font-size="13" letter-spacing="2.2" fill="#e0b7a4">CARAXES / DEVELOPER WORKSPACE</text>
+<text x="64" y="155" class="sans" font-size="66" font-weight="750" letter-spacing="-2.5" fill="#f4eee8">Mohamed</text>
+<text x="64" y="226" class="sans" font-size="66" font-weight="750" letter-spacing="-2.5" fill="#f4eee8">Hossam<tspan fill="#f08c68">.</tspan></text>
+<text x="68" y="274" class="sans" font-size="23" fill="#d7b5a6">Software, with a spark.</text>
+<path d="M68 303H567" stroke="url(#line)"/>
+<text x="68" y="338" class="mono" font-size="13" letter-spacing="1.8" fill="#b8b3ba">WEB APPLICATIONS / AI / AUTOMATION</text>
+<text x="68" y="386" class="mono" font-size="13" fill="#a09aa6">~ / caraxesmsc <tspan fill="#e59a7b">❯</tspan></text>
+<rect class="cursor" x="203" y="374" width="8" height="15" rx="1" fill="#ed9575"/>
+<circle cx="939" cy="210" r="155" fill="none" stroke="#a94b44" stroke-opacity=".28"/>
+<circle cx="939" cy="210" r="141" fill="none" stroke="#e79977" stroke-opacity=".17" stroke-dasharray="2 13"/>
+<g class="orbit"><circle cx="939" cy="210" r="166" fill="none" stroke="#c86653" stroke-opacity=".45" stroke-dasharray="115 928"/><circle cx="939" cy="44" r="3" fill="#ffc08a"/></g>
+<g class="breath"><g transform="translate(950 217) scale(.98)">
+<path d="M-56 83 C-128 58-129-24-83-60 C-58-82-31-65-31-45 C-32-23-61-24-70-8 C-88 21-72 47-48 47 C-7 49 15 19 8-11 L-7-35 L-29-45 L-4-53 L-31-83 L11-69 L8-110 L39-77 L73-90 L62-65 L104-46 L79-20 L43-15 L67 4 L48 17 L23 0 C42 56 6 102-56 101 Z" fill="url(#dragonFill)" stroke="#e26450" stroke-width="2.2" stroke-linejoin="round"/>
+<path d="M-65 43 C-58 5-15 3-7-35 M-79-51 L-61-82 L-52-63 M-102-22 L-123-43 L-113-8 M-112 12 L-134 14 L-112 28 M-98 46 L-117 62 L-89 61 M-72 72 L-73 96 M-37 69 L-27 91 M-5 49 L10 69 M14 22 L31 35" fill="none" stroke="#e26450" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+<path d="M-33-52 L-84-123 L-145-100 L-123-31 L-106-58 L-85-51 L-85-78 L-61-69 L-63-95 Z" fill="#381b23" stroke="#a64740" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M-84-123 L-85-78 M-84-123 L-106-58 M-84-123 L-123-31" fill="none" stroke="#a64740" stroke-width="1.4"/>
+<path d="M43-48 L61-45 L48-36 Z" fill="#ffd4a2"/>
+<path d="M78-21 L90-34 L83-33" fill="none" stroke="#ffd4a2" stroke-width="2.5"/>
+<path d="M37-70 L49-69 M-3-70 L11-58" fill="none" stroke="#f29973" stroke-width="2"/>
+</g></g>
+<text x="939" y="396" text-anchor="middle" class="mono" font-size="12" letter-spacing="2.6" fill="#b89182">CURIOSITY → CODE → CRAFT</text>
+
+</svg>

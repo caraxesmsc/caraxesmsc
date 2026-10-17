@@ -1,34 +1,89 @@
-<h1 align="center">👋 I am <b>Mohamed Hossam Abdelalim</b></h1>
-<h3 align="center">Driven by a thirst for knowledge and a passion for innovation, I'm diving headfirst into the fascinating world of Artificial Intelligence (AI) and Machine Learning (ML).</h3>
-
-**My journey is fueled by a desire to:**
-* **Unlock the potential of AI for good:** I'm eager to explore how AI can tackle real-world challenges and contribute to a better future.
-* **Push the boundaries of ML:** I'm constantly learning and experimenting with new ML techniques, eager to contribute to the advancement of the field.
-* **Build cool and creative things:** Combining my technical skills with a sprinkle of imagination, I enjoy creating unique projects that showcase the power of AI.
-
-**Currently Learning:**
-
-//
-  
-**Connect with me:**
-<p align="left">
-<a href="" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="" height="30" width="40" /></a>
-
+<p align="center">
+  <picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-static.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg" />
+  <img src="./assets/hero.svg" width="100%" alt="Mohamed Hossam — software, with a spark. Web applications, AI, automation. Animated geometric dragon banner." />
+  </picture>
 </p>
 
-**Languages and Tools:**
-<p align="left">
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
-  <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-  <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
-  <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vue" width="40" height="40"/> </a>
+<p align="center">
+  <a href="#about">About</a> &nbsp; · &nbsp;
+  <a href="#public-work">Public work</a> &nbsp; · &nbsp;
+  <a href="#toolkit">Toolkit</a> &nbsp; · &nbsp;
+  <a href="https://github.com/caraxesmsc?tab=repositories">Explore repositories ↗</a>
+</p>
+
+<p align="center"><b>I turn complicated workflows into useful software.</b><br />
+Full-stack development, practical AI, and a little creative experimentation.</p>
+
+<a name="about"></a>
+
+## 01 / Behind the handle
+
+I'm **Mohamed Hossam Abdelalim**, also known as **caraxesmsc**.
+
+I like building things that earn their place in someone's day: a clearer interface, a useful tool, or an automation that removes a repetitive task. My interests connect web development, AI, and the craft of making software easier to use.
+
+<p align="center">
+  <picture>
+  <source media="(max-width: 600px)" srcset="./assets/console-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/console-static.svg" />
+  <img src="./assets/console.svg" width="100%" alt="Current focus: build useful web applications; explore practical AI and automation; make the details feel right. Idea → build → refine." />
+  </picture>
+</p>
+
+<a name="public-work"></a>
+
+## 02 / The public workbench
+
+A few earlier projects you can explore, from desktop software to hardware design.
+
+### [Movie Library Viewer ↗](https://github.com/caraxesmsc/MovieLibraryViewer)
+
+**A home for the movies already on my PC.** A Python application for browsing downloaded movies in a library view.
+
+`Python` · `Desktop application` · `Personal utility`
+
+### [Library System ↗](https://github.com/caraxesmsc/LibrarySystemProject)
+
+**An exercise in organizing more than books.** A Java library-system project built for an object-oriented programming course.
+
+`Java` · `Object-oriented programming` · `Course project`
+
+### [ATM Core Design & Verification ↗](https://github.com/caraxesmsc/EDA-ATM-Bank-System-Verilog)
+
+**A look beneath the application layer.** A team project exploring an ATM core in Verilog, with design models and a verification environment.
+
+`Verilog` · `Digital design` · `Verification`
+
+<details>
+<summary><b>More from the archive</b></summary>
+
+- [Full-stack training](https://github.com/caraxesmsc/Training-NEXT-Fullstack) — PHP coursework and practice.
+- [Memory matching card game](https://github.com/caraxesmsc/MemoryMatching-CardGame-DataStructure) — C++ and data structures.
+- [Football Association DB](https://github.com/caraxesmsc/FootballAssociationDB) — a C++ project from the archive.
+
+</details>
+
+<a name="toolkit"></a>
+
+## 03 / Tools of the trade
+
+**Web & applications** &nbsp; TypeScript · JavaScript · React · Next.js · Node.js
+
+**Data & automation** &nbsp; Python · Firebase · Git
+
+**Foundations** &nbsp; Java · C++ · SQL · Verilog
+
+<br />
+
+<p align="center">
+  <b>Have a look around.</b><br />
+  <a href="https://github.com/caraxesmsc?tab=repositories">Explore the code</a> &nbsp; · &nbsp;
+  <a href="https://github.com/caraxesmsc?tab=stars">See what catches my attention</a>
+</p>
+
+<p align="center">
+  <sub><b>KEEP THE CURIOSITY. SHIP THE IDEA.</b></sub>
 </p>
