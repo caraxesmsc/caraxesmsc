@@ -58,12 +58,19 @@ jobs:
           PROFILE_USER: ${{ github.repository_owner }}
         run: python scripts/build_pulse.py --out assets/pulse.svg
 
+      - name: Give the image a fresh link so caches can't show yesterday's graph
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          stamp=$(TZ="$PROFILE_TZ" date +%Y%m%d)
+          sed -i -E "s#\./assets/pulse\.svg(\?v=[0-9]+)?#./assets/pulse.svg?v=${stamp}#" README.md
+          grep -o 'assets/pulse.svg[^"]*' README.md
+
       - name: Commit and push
         if: steps.gate.outputs.go == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/pulse.svg
+          git add assets/pulse.svg README.md
           if git diff --cached --quiet; then
             echo "No change."
           else
