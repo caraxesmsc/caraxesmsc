@@ -1,0 +1,72 @@
+name: Refresh profile stats
+
+# Rebuilds assets/pulse.svg (contribution heatmap, total, streaks, busiest week,
+# peak day, "LIVE" date) every night at 00:00 Cairo time.
+#
+# GitHub cron only speaks UTC and Egypt switches between UTC+2 and UTC+3, so the
+# job is scheduled at both 21:00 and 22:00 UTC and the first step only lets the
+# run through when it is midnight in Cairo. Exactly one of the two runs each day.
+
+on:
+  schedule:
+    - cron: "0 21 * * *"   # 00:00 Cairo in summer time (UTC+3)
+    - cron: "0 22 * * *"   # 00:00 Cairo in winter time (UTC+2)
+  workflow_dispatch:        # "Run workflow" button for a manual refresh
+  push:
+    branches: [main]
+    paths: [scripts/build_pulse.py, .github/workflows/pulse.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      PROFILE_TZ: Africa/Cairo
+    steps:
+      - name: Is it midnight in Cairo?
+        id: gate
+        run: |
+          hour=$(TZ="$PROFILE_TZ" date +%H)
+          if [ "${{ github.event_name }}" != "schedule" ] || [ "$hour" = "00" ]; then
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Cairo time is ${hour}:xx, not midnight; the other schedule handles today."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Render assets/pulse.svg
+        if: steps.gate.outputs.go == 'true'
+        env:
+          # Optional: a classic token with only read:user, saved as the secret
+          # PULSE_TOKEN, makes the count include private contributions exactly
+          # as your profile shows them.
+          GITHUB_TOKEN: ${{ secrets.PULSE_TOKEN || secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python scripts/build_pulse.py --out assets/pulse.svg
+
+      - name: Commit and push
+        if: steps.gate.outputs.go == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pulse.svg
+          if git diff --cached --quiet; then
+            echo "No change."
+          else
+            git commit -m "chore: refresh profile stats ($(TZ="$PROFILE_TZ" date +%F))"
+            git push
+          fi

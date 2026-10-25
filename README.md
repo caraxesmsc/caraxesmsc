@@ -16,7 +16,7 @@
   <img src="./assets/pulse.svg" width="100%" alt="Animated contribution heatmap with total contributions, streaks and busiest week, refreshed daily." />
 </p>
 
-<sub>A GitHub Action rebuilds this every day from my real contribution calendar. Most of it lands in private repos for production systems I run day to day.</sub>
+<p align="center"><sub>Live from my real contribution calendar, rebuilt daily. Most of it lands in private repos for production systems I run day to day.</sub></p>
 
 Computer & Systems Engineering graduate, **Ain Shams University × University of East London** (2026). I've designed a CPU in VHDL, changed the MINIX 3 scheduler, written a compiler front-end, and shipped cloud apps. For my capstone with **Siemens Egypt** I built the safety layer that lets an LLM edit a live engineering model.
 
