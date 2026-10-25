@@ -211,7 +211,8 @@ def render(days) -> str:
         for j, (k, v) in enumerate(stat_items)
     ]
 
-    updated = dt.date.today().strftime("%d %b %Y")
+    from zoneinfo import ZoneInfo  # stamp the date in local time, not the runner's UTC
+    updated = dt.datetime.now(ZoneInfo(os.environ.get("PROFILE_TZ", "Africa/Cairo"))).strftime("%d %b %Y")
     live = f"LIVE · {updated.upper()}"
     dot_x = W - 40 - len(live) * 7.4 - 10
     lg = W - 72  # legend anchor
