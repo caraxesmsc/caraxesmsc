@@ -13,7 +13,7 @@
 <a name="pulse"></a>
 
 <p align="center">
-  <img src="./assets/pulse.svg?v=20261106" width="100%" alt="Animated contribution heatmap with total contributions, streaks and busiest week, refreshed daily." />
+  <img src="./assets/pulse.svg?v=20261107" width="100%" alt="Animated contribution heatmap with total contributions, streaks and busiest week, refreshed daily." />
 </p>
 
 <p align="center"><sub>Live from my real contribution calendar, rebuilt daily. Most of it lands in private repos for production systems I run day to day.</sub></p>
